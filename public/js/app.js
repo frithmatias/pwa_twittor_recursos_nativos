@@ -1,5 +1,5 @@
 var url = window.location.href;
-var swLocation = '/twittor/sw.js';
+var swLocation = '/pwa_twittor_recursos_nativos/public/sw.js';
 
 var swReg;
 
@@ -519,7 +519,7 @@ btnTomarFoto.on('click', () => {
 });
 
 // ----------------------------
-// Share API
+// Share API (Si navigator.share es soportado, va a compartir un mensaje haciendo click en el mensaje)
 // ----------------------------
 
 if( navigator.share ) {
